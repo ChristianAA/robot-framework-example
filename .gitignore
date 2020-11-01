@@ -1,0 +1,19 @@
+# Python
+venv/*
+
+# Python Installer
+*.pyc
+*.spec
+build
+dist
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Robot Frameword
+results/

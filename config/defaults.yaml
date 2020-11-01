@@ -1,0 +1,8 @@
+# Base URL
+url: https://duckduckgo.com/
+
+#chrome/firefox/edge
+browser: chrome
+
+#True/False --> Only on Chrome
+headless: True
