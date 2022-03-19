@@ -1,8 +1,8 @@
 # Robot Framework example
 
-This repository contains the base setup of a functional user interface testing project, using Robot Framework
+This repository contains the base setup of an UI testing project, using Robot Framework
 
-A simple test for finding results in DuckDuckGo is used as example
+A simple search in DuckDuckGo to check that results are displayed is used as example
 
 # Requirements
 
@@ -24,7 +24,13 @@ A simple test for finding results in DuckDuckGo is used as example
 1. Open a terminal
 2. From the project root directory run: `robot --pythonpath resources -d results tests/`
 
+# Configuration
+
 By default, tests will be executed in Chrome (headless mode). Preferences can be changed in "/config/defaults.yaml" file
+
+# Results
+
+To check the report, open the '/results/report.html' file once the execution has finished.
 
 # Links
    

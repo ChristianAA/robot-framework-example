@@ -1,7 +1,7 @@
 # Base URL
 url: https://duckduckgo.com/
 
-#chrome/firefox/edge
+#chrome/firefox
 browser: chrome
 
 #True/False --> Only on Chrome
