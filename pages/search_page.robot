@@ -4,8 +4,8 @@ Resource        imports.robot
 
 *** Variables ***
 ${search_page}          ${url}
-${search_input}         //*[@id='search_form_input_homepage']
-${search_button}        //*[@id='search_button_homepage']
+${search_input}         css:#searchbox_input
+${search_button}        css:#searchbox_homepage [type='submit']
 
 *** Keywords ***
 

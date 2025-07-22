@@ -4,5 +4,5 @@ url: https://duckduckgo.com/
 #chrome/firefox
 browser: chrome
 
-#True/False --> Only on Chrome
+#True/False
 headless: True

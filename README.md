@@ -1,14 +1,15 @@
 # Robot Framework example
 
-This repository contains the base setup of an UI testing project, using Robot Framework
+This repository contains the base setup of an UI testing project, using Robot Framework + Selenium Library
 
 A simple search in DuckDuckGo to check that results are displayed is used as example
 
 # Requirements
 
-* Python 3.7.X
+* Python 3.12.X
 * pip and setuptools
 * [venv](<https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/>) (recommended)
+* Chrome and Firefox
 
 # Instalation
 
@@ -41,5 +42,3 @@ To check the report, open the '/results/report.html' file once the execution has
    [Selenium Library](<https://github.com/robotframework/SeleniumLibrary>)
    
    [Webdriver Manager for Python](<https://github.com/SergeyPirogov/webdriver_manager>)
-   
-   
