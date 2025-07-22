@@ -1,22 +1,29 @@
 # Robot Framework example
 
-This repository contains the base setup of an UI testing project, using Robot Framework
+This repository contains the base setup of an UI testing project, using Robot Framework + Selenium Library
 
 A simple search in DuckDuckGo to check that results are displayed is used as example
 
 # Requirements
 
-* Python 3.7.X
+* Python 3.12.X
 * pip and setuptools
 * [venv](<https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/>) (recommended)
+* Chrome and Firefox
 
 # Instalation
 
-1. Download or clone the repository 
+Assuming python, pip and venv are installed correctly:
+
+1. Download or clone this repository 
 2. Open a terminal
-3. Go to the project root directory "/robot-framework-examples/".
-4. Create a virtual environment: `py -m venv venv`
-5. Activate the virtual environment executing the following script: `.\venv\Scripts\activate`
+3. Go to the project root directory "/selenium-python-example/".
+4. Create a virtual environment: 
+   - (UBUNTU): `python3 -m venv .venv`
+   - (WINDOWS): `py -m venv venv`
+5. Activate the virtual environment executing the following script: 
+   - (UBUNTU): `source .venv/bin/activate`
+   - (WINDOWS): `.\venv\Scripts\activate`
 6. Execute the following command to download the necessary libraries:  `pip install -r requirements.txt`
 
 # Test Execution
@@ -41,5 +48,3 @@ To check the report, open the '/results/report.html' file once the execution has
    [Selenium Library](<https://github.com/robotframework/SeleniumLibrary>)
    
    [Webdriver Manager for Python](<https://github.com/SergeyPirogov/webdriver_manager>)
-   
-   

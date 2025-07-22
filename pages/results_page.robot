@@ -3,8 +3,6 @@ Documentation   Results Page Variables and Keywords
 Resource        imports.robot
 
 *** Variables ***
-${result_links}     //*[@id='links']//*[@data-testid='result']
+${result_links}     css:[data-testid='mainline'] [data-testid='result']
 
 *** Keywords ***
-
-
