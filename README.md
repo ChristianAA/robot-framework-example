@@ -1,3 +1,5 @@
+[![Daily Robot Framework Tests](https://github.com/ChristianAA/robot-framework-example/actions/workflows/daily-test.yml/badge.svg)](https://github.com/ChristianAA/robot-framework-example/actions/workflows/daily-test.yml)
+
 # Robot Framework example
 
 This repository contains the base setup of an UI testing project, using Robot Framework + Selenium Library
