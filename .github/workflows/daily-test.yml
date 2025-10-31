@@ -19,11 +19,16 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install Google Chrome
+      - name: Install Chrome for Testing
         run: |
-          wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-          sudo apt-get update
-          sudo apt-get install -y ./google-chrome-stable_current_amd64.deb
+          wget https://storage.googleapis.com/chrome-for-testing/latest/linux64/chrome-linux64.zip
+          wget https://storage.googleapis.com/chrome-for-testing/latest/linux64/chromedriver-linux64.zip
+          unzip chrome-linux64.zip
+          unzip chromedriver-linux64.zip
+          sudo mv chrome-linux64 /opt/chrome
+          sudo mv chromedriver-linux64/chromedriver /usr/local/bin/chromedriver
+          sudo chmod +x /usr/local/bin/chromedriver
+          echo "export PATH=/opt/chrome:$PATH" >> $GITHUB_ENV
     
       - name: Install dependencies
         run: |
