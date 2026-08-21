@@ -1,7 +1,7 @@
 *** Settings ***
 Library        SeleniumLibrary
-Library        ../resources/libs/helpers.py
+Library        libs/helpers.py
 Variables      ../config/defaults.yaml
-Resource       ../resources/common.robot
+Resource       common.robot
 Resource       ../pages/search_page.robot
 Resource       ../pages/results_page.robot
